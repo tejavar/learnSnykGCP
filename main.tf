@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("<NAME>.json")
 
   project = "hc-f4902757127142998e96816128a"
   region  = "us-central1"
